@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+
+}
+
+.bg {
+  /* The image used */
+  background: url("../img/plank-board.jpg") top repeat-y;
+  /* Full height */
+  height: 70%;
+
+  /* Center and scale the image nicely */
+  /* background-position: right top, left bottom ;
+  background-repeat: repeat-y, no-repeat; */
+  background-size: 100px;
+}
+.container{
+    background: url(../img/background-tool.jpg) bottom no-repeat;
+    background-size:auto ;
+    height: 105%;
+    background-size: inherit;
+}
+
+.bg, .container{
+    background-size: 50%;
+    width: 100%;
+}
+
+/* 
+body{
+    background-image: url(../img/plank-board.jpg);
+    background-position-y: 0px, top;
+    padding: 1em 0 .3em 0;
+    display: inline-block;
+
+}  */
