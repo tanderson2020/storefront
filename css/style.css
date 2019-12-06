@@ -16,14 +16,19 @@ body, html {
 }
 .container{
     background: url(../img/background-tool.jpg) bottom no-repeat;
-    background-size:auto ;
+    /* background-size:auto ; */
     height: 105%;
     background-size: inherit;
 }
 
 .bg, .container{
-    background-size: 50%;
+    /* background-size: 80%; */
     width: 100%;
+}
+
+/* nav bar stuff right here */
+.company-logo{
+  background-image: url(../img/comp-logo.png);
 }
 
 /* 
