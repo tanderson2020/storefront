@@ -1,34 +1,24 @@
-body {
-  height: 2000px;
-}
-
 .bg {
-  /* The image used */
+  height: 2000px;
+  position: relative;
   background: url("../img/plank-board2.jpg") top repeat-y;
-  /* Full height */
   height: auto;
   width: 100vw;
-
-  /* Center and scale the image nicely */
-  /* background-position: right top, left bottom ;
-  background-repeat: repeat-y, no-repeat; */
+  z-index: 2;
+}
+.bottom-pic {
+  background: url(../img/background-tool.jpg) bottom no-repeat;
+  z-index: 1000;
+  position: relative;
+  bottom: 0;
+  height: 550px;
+  width: 99%;
   background-size: cover;
-}
-.container-fluid{
-    /* background: url(../img/background-tool.jpg) bottom no-repeat;
-    
-    height: auto;
-    width: 100vw;
-    background-size: cover; */
-}
-
-.bg, .container{
-    /* background-size: 80%; */
-    /* width: 100%; */
+  margin: 0 auto;
 }
 
 /* nav bar stuff right here */
-.company-logo{
+.company-logo {
   background-image: url(../img/comp-logo.png);
 }
 .row{
@@ -90,3 +80,7 @@ a.nav-item:hover {
   .top-nav {display: flex; flex-direction: row; justify-content: space-around;}
 }
 
+
+.pls-work{
+  width: 100%;
+}
