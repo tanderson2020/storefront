@@ -1768,13 +1768,13 @@ textarea.input {
 
 .footer-links li i {
   margin-right: 15px;
-  color: #D10024;
+  color: var(--bg);
   width: 14px;
   text-align: center;
 }
 
 .footer-links li a:hover {
-  color: #D10024;
+  color: var(--bg);
 }
 
 .copyright {
@@ -1814,8 +1814,8 @@ textarea.input {
 }
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-  background-color: #D10024;
-  border-color: #D10024;
+  background-color: var(--bg);
+  border-color: var(--bg);
 }
 
 .slick-prev:before, .slick-next:before {
@@ -1860,7 +1860,7 @@ textarea.input {
 }
 
 .slick-dots li.slick-active button:before {
-  background-color: #D10024;
+  background-color: var(--bg);
 }
 
 .custom-dots .slick-dots {
